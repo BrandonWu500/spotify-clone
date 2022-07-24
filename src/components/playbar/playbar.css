@@ -1,0 +1,72 @@
+.playbar {
+  background-color: #222;
+  grid-column: 1 / -1;
+  height: 10vh;
+  padding: 0.5em 1em;
+  color: var(--text-clr-accent);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.playbar-left {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.playbar-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playbar-btns {
+  display: flex;
+  align-items: center;
+}
+
+.playbar-btn {
+  font-size: 1rem;
+  background-color: transparent;
+  border: 0;
+  color: var(--text-clr-primary);
+}
+
+.playbar-btn:nth-of-type(3) {
+  font-size: 1.5rem;
+}
+
+.playbar-track {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+}
+
+.playbar-track-time {
+  font-size: 0.6rem;
+}
+
+.playbar-track-progress {
+  height: 3px;
+  width: 100%;
+  background-color: var(--clr-darker);
+  border-radius: 100vh;
+}
+
+.playbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 1rem;
+  color: var(--text-clr-primary);
+}
+
+.playbar-volume-bar {
+  height: 3px;
+  width: 20%;
+  background-color: var(--clr-darker);
+  border-radius: 100vh;
+}

@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+:root {
+  --text-clr-primary: #aaa;
+  --text-clr-accent: white;
+  --clr-darker: #666;
+  --clr-darkest: #222;
+  --clr-accent: #1ed760;
+  --clr-accent-hover: #1fdf64;
+  --clr-accent-active: #169c46;
+  --bg-clr: rgb(80, 56, 160);
+  --bg-clr-darker: rgb(40, 28, 80);
+  --bg-clr-darkest: rgb(15, 12, 22);
+
+  --fz-200: 0.5rem;
+  --fz-300: 0.6rem;
+  --fz-400: 0.7rem;
+  --fz-500: 0.8rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

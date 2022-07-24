@@ -1,0 +1,22 @@
+.song-item {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.song-item-image {
+  border: 3px solid var(--text-clr-accent);
+  color: var(--text-clr-accent);
+  padding: 5px;
+}
+
+.song-item-title {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-clr-accent);
+}
+
+.song-item-artist {
+  font-size: 0.7rem;
+  color: var(--text-clr-primary);
+}
