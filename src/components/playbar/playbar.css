@@ -5,6 +5,7 @@
   padding: 0.5em 1em;
   color: var(--text-clr-accent);
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(3, 1fr);
 }
 

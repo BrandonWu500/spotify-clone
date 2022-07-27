@@ -5,6 +5,9 @@
   width: 15vw;
   padding: 0.5em;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo {
@@ -25,6 +28,10 @@
 .logo-title {
   font-size: 1.2rem;
   color: var(--text-clr-accent);
+}
+
+.sidebar-top {
+  height: 35vh;
 }
 
 .sidebar-nav {
@@ -58,15 +65,16 @@
 .sidebar-bot {
   position: relative;
   padding-bottom: 2em;
+  height: 55vh;
 }
 
 .sidebar-playlists {
   margin-top: 1em;
-  line-height: 2;
+  line-height: 2.5;
   overflow-y: scroll;
+  height: 45vh;
   font-size: 0.7rem;
   padding-left: 1em;
-  height: 40vh;
 }
 
 .sidebar-playlist-item:hover {

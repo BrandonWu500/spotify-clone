@@ -63,6 +63,30 @@ export const playlists = [
     id: 15,
     title: 'Playlist Name',
   },
+  {
+    id: 16,
+    title: 'Playlist Name',
+  },
+  {
+    id: 17,
+    title: 'Playlist Name',
+  },
+  {
+    id: 18,
+    title: 'Playlist Name',
+  },
+  {
+    id: 19,
+    title: 'Playlist Name',
+  },
+  {
+    id: 20,
+    title: 'Playlist Name',
+  },
+  {
+    id: 21,
+    title: 'Playlist Name',
+  },
 ];
 
 export const songs = [
