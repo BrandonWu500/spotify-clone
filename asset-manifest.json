@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/spotify-clone/static/css/main.dcd0f812.css",
+    "main.js": "/spotify-clone/static/js/main.2c9473f7.js",
+    "static/media/logo.jpg": "/spotify-clone/static/media/logo.342b9563100062359055.jpg",
+    "index.html": "/spotify-clone/index.html",
+    "main.dcd0f812.css.map": "/spotify-clone/static/css/main.dcd0f812.css.map",
+    "main.2c9473f7.js.map": "/spotify-clone/static/js/main.2c9473f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcd0f812.css",
+    "static/js/main.2c9473f7.js"
+  ]
+}
